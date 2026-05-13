@@ -1,0 +1,8 @@
+# deps
+node_modules/
+
+# system files
+.DS_Store
+
+# environment variables
+.env
