@@ -35,9 +35,9 @@ LABELS_PATH     = ROOT / "resources" / "labels.bin"
 # ---------------------------------------------------------------------------
 NDIM             = 14
 DTYPE            = "i8"    # Int8 scalar quantization
-CONNECTIVITY     = 12      # M=12: bom balanço entre precisão e tamanho do índice
-EXPANSION_ADD    = 100     # efConstruction — qualidade do build
-EXPANSION_SEARCH = 20      # ef — qualidade da busca em runtime
+CONNECTIVITY     = 4      # M=12: bom balanço entre precisão e tamanho do índice
+EXPANSION_ADD    = 200     # efConstruction — qualidade do build
+EXPANSION_SEARCH = 32      # ef — qualidade da busca em runtime
 
 # ---------------------------------------------------------------------------
 # Carrega o dataset
