@@ -1,12 +1,17 @@
 {
   "name": "rinha-backend-2026",
+  "author": "Mariana Bastos",
   "scripts": {
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "hono": "^4.12.18"
+    "hono": "^4.12.18",
+    "usearch": "^2.25.1"
   },
   "devDependencies": {
     "@types/bun": "latest"
-  }
+  },
+  "trustedDependencies": [
+    "usearch"
+  ]
 }
