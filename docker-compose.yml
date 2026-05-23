@@ -17,7 +17,7 @@ services:
           memory: '30M'
 
   api1:
-    build: .
+    image: marianabastos/rinha-backend-2026:latest
     environment:
       - PORT=9999
     expose:
@@ -36,7 +36,7 @@ services:
           memory: '160M'
 
   api2:
-    build: .
+    image: marianabastos/rinha-backend-2026:latest
     environment:
       - PORT=9999
     expose:
