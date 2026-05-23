@@ -28,8 +28,6 @@ Run (development)
 bun run dev
 ```
 
----
-
 Open the API locally at:
 http://localhost:9999
 
